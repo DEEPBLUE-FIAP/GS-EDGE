@@ -1,3 +1,7 @@
+Nomes e RMs dos integrantes do grupo:
+Juan Fuentes Rufino - RM557673 
+Pedro Batista - RM558137 
+Fernando Carlos Colque Huaranca - RM558095
 Deep Blue: Monitoramento de pH e Temperatura da Água em Rios e Praias
 
 Este projeto foi desenvolvido para monitorar a qualidade da água em rios e praias, medindo o pH e a temperatura. Ele visa fornecer informações críticas para a avaliação ambiental e ajudar a garantir a saúde dos ecossistemas aquáticos.
@@ -19,7 +23,7 @@ Componentes Necessários
     1 x Arduino Uno ou compatível
     1 x Sensor de temperatura Dallas DS18B20
     1 x Módulo OneWire
-    1 x Potenciômetro (para simular o sensor de pH)*
+    1 x Potenciômetro* (para simular o sensor de pH)
     1 x Display LCD 16x2
     1 x Buzzer
     3 x LEDs (Vermelho, Amarelo e Verde)
@@ -107,3 +111,5 @@ Referências
     Portal da Qualidade das Águas - Agência Nacional de Águas e Saneamento Básico (ANA)
     Arduino OneWire Library
     Arduino DallasTemperature Library
+
+Nota: No protótipo atual, o potenciômetro está sendo usado para simular as leituras de pH. Em uma aplicação prática, deve ser substituído por um sensor de pH adequado, como o PH4502C, para obter medições precisas do pH da água.
